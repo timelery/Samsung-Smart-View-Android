@@ -1,0 +1,31 @@
+#! TwonkyServer Default ini file / charset UTF-8
+# updatd by platform installer, used for 'reset to defaults'
+[main]
+
+# Watch changes in machine's network conf (1: yes, 0: no)
+nicrestart=1
+
+# media type filter for non local clients, values are: A (all,default) | M | P | V | m | p | v | X (non)
+mediatypefilter=A
+
+# auto enable new detected clients
+clientautoenable=1
+
+# CSV list of all shares, prepended by the type (A,M,P,V) and a '+' or '-' sign to flag enabled or disabled shares
+contentdir=+A|/mediaLibrary
+
+# access to web config pages, 0 for denied, 1 for local only, 2 for open
+enableweb=0
+
+# enable content upload
+uploadenabled=0
+
+# enable TLS
+enabletls=1
+
+
+# enable reporting
+enablereporting=15
+
+# Use Korean for non-UTF metadata
+codepage=949
